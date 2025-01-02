@@ -1,3 +1,7 @@
+---
+    import '@fontsource-variable/jetbrains-mono';
+	import '@fontsource-variable/rubik';
+---
 <!doctype html>
 <html lang="en">
 	<head>
@@ -7,10 +11,11 @@
 		<meta name="generator" content={Astro.generator} />
 		<title>Get your route</title>
 	</head>
-	<body>
+	<body class="p-4">
 		<slot />
 	</body>
 </html>
+
 
 <style>
 	html,
@@ -18,5 +23,6 @@
 		margin: 0;
 		width: 100%;
 		height: 100%;
+		background-color: #D7D9CE;
 	}
 </style>
